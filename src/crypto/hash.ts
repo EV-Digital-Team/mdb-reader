@@ -1,4 +1,4 @@
-import { createHash } from "../environment/index.js";
+import { createHash } from "../environment/node.js";
 import { fixBufferLength } from "../util.js";
 
 export function hash(algorithm: string, buffers: Buffer[], length?: number): Buffer {

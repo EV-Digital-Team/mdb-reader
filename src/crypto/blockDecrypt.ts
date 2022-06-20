@@ -1,4 +1,4 @@
-import { createDecipheriv } from "../environment/index.js";
+import { createDecipheriv } from "../environment/node.js";
 import { Cipher } from "./types.js";
 
 export function blockDecrypt(cipher: Cipher, key: Buffer, iv: Buffer, data: Buffer): Buffer {
