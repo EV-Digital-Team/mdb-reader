@@ -4,6 +4,9 @@
 [![license](https://img.shields.io/github/license/andipaetzold/mdb-reader)](https://github.com/andipaetzold/mdb-reader/blob/main/LICENSE)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
+# Fork Notes
+Only change here is to the build script to use tsup and build a CJS module that we can require into nodejs scripts - for use with the pkg tool.
+
 # MDB Reader
 
 JavaScript library to read data from Access databases.
